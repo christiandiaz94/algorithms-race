@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="28.0" layoutY="25.0" text="N:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="54.0" layoutY="30.0" prefHeight="25.0" prefWidth="240.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="116.0" layoutX="28.0" layoutY="86.0" stroke="#593ec5" strokeType="INSIDE" width="124.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#593ec5" height="35.0" layoutX="34.0" layoutY="69.0" stroke="BLACK" strokeType="INSIDE" width="107.0" />
+      <Label layoutX="43.0" layoutY="72.0" text="Algorithm" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="89.0" layoutX="173.0" layoutY="84.0" stroke="#593ec5" strokeType="INSIDE" width="124.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#593ec5" height="35.0" layoutX="179.0" layoutY="67.0" stroke="BLACK" strokeType="INSIDE" width="107.0" />
+      <Label layoutX="203.0" layoutY="71.0" text="Mode" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="44.0" layoutY="112.0" mnemonicParsing="false" text="Add">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="44.0" layoutY="140.0" mnemonicParsing="false" text="Search">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="44.0" layoutY="168.0" mnemonicParsing="false" text="Delete">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="188.0" layoutY="112.0" mnemonicParsing="false" text="Iterative">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="188.0" layoutY="140.0" mnemonicParsing="false" text="Recursive">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="188.0" layoutY="181.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #593ec5;" text="Run!" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="69.0" layoutX="311.0" layoutY="43.0" stroke="#593ec5" strokeType="INSIDE" width="279.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#593ec5" height="35.0" layoutX="317.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="118.0" />
+      <Label layoutX="326.0" layoutY="29.0" text="Timekeeper" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label disable="true" layoutX="323.0" layoutY="69.0" prefHeight="39.0" prefWidth="169.0" />
+      <Circle fill="#593ec5" layoutX="559.0" layoutY="78.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#eeeeee" layoutX="559.0" layoutY="78.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="116.0" layoutX="311.0" layoutY="132.0" stroke="#593ec5" strokeType="INSIDE" width="279.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#593ec5" height="35.0" layoutX="317.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" width="124.0" />
+      <Label layoutX="326.0" layoutY="118.0" text="Final Results" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="346.0" layoutY="200.0" text="ArrayList">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="338.0" layoutY="217.0" prefHeight="22.0" prefWidth="70.0" />
+      <Label layoutX="421.0" layoutY="202.0" text="ArrayList">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="413.0" layoutY="219.0" prefHeight="22.0" prefWidth="70.0" />
+      <Label layoutX="502.0" layoutY="201.0" text="ArrayList">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="494.0" layoutY="218.0" prefHeight="22.0" prefWidth="70.0" />
+   </children>
+</Pane>
